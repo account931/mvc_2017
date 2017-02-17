@@ -1,0 +1,301 @@
+body{color:black; background-color:white; } 
+
+/*background-image:url(image/bgr1.png);*/
+
+var-fontColor: rgb(208,228,247);
+    
+.deepnavy{ background: rgb(208,228,247); 
+background: -moz-linear-gradient(top, rgba(208,228,247,1) 0%, rgba(115,177,231,1) 24%, rgba(10,119,213,1) 50%, rgba(83,159,225,1) 79%, rgba(135,188,234,1) 100%); 
+background: -webkit-linear-gradient(top, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); 
+background: linear-gradient(to bottom, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); 
+}
+
+
+a:hover{color:red;}
+
+
+
+*{color:black;}
+.shadowR {text-shadow: 1px 1px 2px black, 0 0 1em black;}
+.shadow2R{text-shadow: 2px 2px 4px  black/*#000000*/; }
+.shadowColorR {text-shadow: 2px 2px 4px  white;}
+input {border-radius: 15px;}
+
+.boxedshadow{box-shadow: 0 0 10px rgba(0,0,0,1.5);}
+
+/*ALL*/
+a:link{color:black;}
+/*-END  ALL*/
+
+/*a {color:white;}*/
+a:hover{color:red;}
+
+.pargr {color:black;font-size:32px;} /*nessageBox.tpl*/
+.white{color:white;} /*just  white  color*/
+
+/*HEADER START--------------*/
+#header1{ background-image: url(image/b2r.jpg);          /*(image/b2.jpg)*/background-size:100%;                       /*start gradient*/    background: rgb(208,228,247); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(208,228,247,1) 0%, rgba(115,177,231,1) 24%, rgba(10,119,213,1) 50%, rgba(83,159,225,1) 79%, rgba(135,188,234,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+ /* End  gradient*/
+               
+width:100%;height: 120px;background-size:100%;border:4px solid  white;color:white;}
+
+.header_content{font-size:55px;color:white;padding-top:1px;}
+#header2{ /*background-image: url(image/headert.jpg);background-size:100%;*/height:100%;width:100%;color:white;}
+ 
+/*Amendments*/
+#headerp{margin-top:30px;}
+/*END HEADER-----------------------------*/
+
+
+/*BASE START (which include 3  columns************/
+#base{width:100%; height:760px;} /*560*/
+/*END  BASE--------------------------*/
+
+
+
+
+
+/*C1 START ********************************/
+#c1{background-color:white/*#cccccc*/;width:20%;height:750px;float:left;overflow-y: scroll;border-bottom: 1px solid grey;border-top: 1px solid grey;}
+/*to make  scrollable  set  the  obviuuse height  and set  overflow-y:scroll*/
+#c1 a{color:black;}
+
+
+#allusers{color:white;}
+#allusers {font-size:16px; }
+#usersP {font-size:26px;color:black; }
+#item{font-size:16px;}
+/* END C1-----------------------------------------*/
+
+
+
+
+
+
+/*C2 CENTRAL  COLUMN 2 START****************/
+#c2 {/* background-image: url(image/bgr1.png);background-size:100%;*/}
+#c2{background-color:white;width:61%;height:750px;float:left;overflow-y: scroll;border:1px solid grey;}
+#links li {display: inline;color:black; padding-left:13%;font-size:17px;} 
+#links a :hover {color:red;}
+#c2 a {color:black;}
+#secondmenu{color:black/*white*/;}
+
+
+
+/*REGISTER*/
+#register {color:white;margin: 0 auto;width:70%;/*align:center;*/ border:solid black 2px;text-align:center; }
+#register input{margin-top:6px;/*margin-left:23px;*/ vertical-align:middle;}
+#register form{margin-top:18px;margin-bottom:18px;}
+.inp{float:left;margin-left:25px;}
+
+#register table {width:70%;margin:auto;}
+
+/*appears  by  defaull*/
+#default{font-size:41px;color:black/*white*/;margin:35px;margin-top:90px;}
+
+
+/*myfriendlist*/
+#myfriendlist a{font-size:12px;}
+#myfriendlist p {border-radius: 25px;padding-left:6%;}
+#myfriendlist img {border-radius: 15px;}
+
+/*PERSONAL PAGE   and  all other to  set BACKGROUND*/
+/*#personal,#myfriendlist,#messageBox,#c2 { background-image: url(image/bgr1.png);background-size:100%;}*/
+
+
+#messageBox p,img{border-radius: 25px;}
+
+#MyGallery img {border-radius: 15px;}
+
+
+
+
+/*MyShop*/
+#myshoppadd{display:none;}
+#myshop p{font-size:34px;margin-top:15px;}
+#myshopall{clear:both;}
+/*END C2-----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/* C3  COLUMN 3  START  RIGHT***************/
+#c3{background-color:/*green*/white;width:18%;height:750px;float:right;/*background-image: url(image/bgr1.png);*/border-bottom: 1px solid grey;border-top: 1px solid grey;}
+#c3 a {color:white;}
+/*#c3 input{margin-right:35px;margin-top:3px;}*/
+
+#login{margin-left:12px;margin-top:15px;}
+#rightmenu a {margin-top:9px;color:black;}
+
+#c3 a:hover{color:red;}
+/*#c3{font-size:14px;}*/
+
+/*END C3-----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+#footer{ ;height:100%;width:100%;width:100%;height:40px;clear:both}
+/* END  FOOTER-------------------------------------------*/
+
+
+
+/*CAPTCHA*/
+#captchaHidden{width:97%;height:68%;background-color:white;position:fixed;display:none;top:45px;
+border:2px solid  black;
+margin-left:10px/*auto*/;margin-right:auto;border-radius:27px;}
+#captchaHidden p{font-size:34px;}
+
+
+
+
+
+
+
+/* X-Zero  css--------------------------------------*/
+.hovme:hover{background-color:yellow;}
+
+#tabR  td{border: solid 2px black;border-collapse: separate;width:300px;height:80px;text-align:center;}
+
+/*table{border-collapse: collapse;}*/
+#tabR {margin:0 auto;height:600px;margin-top:100px;border:none;}
+.yellow{background-color:yellow;}
+/*body{background-color:#E0F8F7/*#CEF5FF8*/;}*.
+/*body {background-image: url("kr2.jpg");}*/
+
+.edit,.delete{background-color:red; border:1px solid black;margin-left:7px;}
+#tabR td{font-size:53px;color:red;}
+
+#tabR  td,  th {  border: solid 2px black;}
+/*END  X-Zero  css-----------------*/
+
+
+
+
+
+
+
+/*USED left  and  right = NOT  USED ?????   */
+.gradient{
+background: rgba(179,220,237,1);
+background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 0%, rgba(188,224,238,0.23) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(0%, rgba(41,184,229,1)), color-stop(100%, rgba(188,224,238,0.23)));
+background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 0%, rgba(188,224,238,0.23) 100%);
+background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 0%, rgba(188,224,238,0.23) 100%);
+background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 0%, rgba(188,224,238,0.23) 100%);
+background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 0%, rgba(188,224,238,0.23) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );
+
+/*
+background: rgba(179,220,237,1);
+background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 0%, rgba(188,224,238,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(0%, rgba(41,184,229,1)), color-stop(100%, rgba(188,224,238,1)));
+background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 0%, rgba(188,224,238,1) 100%);
+background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 0%, rgba(188,224,238,1) 100%);
+background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 0%, rgba(188,224,238,1) 100%);
+background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 0%, rgba(188,224,238,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );*/  }
+
+/*Central*/
+.gradientLight{
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(132,215,240,1) 50%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(132,215,240,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(132,215,240,1) 50%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(132,215,240,1) 50%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(132,215,240,1) 50%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(132,215,240,1) 50%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );}
+
+
+
+
+
+.gradientHead{
+background: rgba(152,207,231,1);
+background: -moz-linear-gradient(left, rgba(152,207,231,1) 0%, rgba(27,173,218,1) 50%, rgba(157,210,231,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(152,207,231,1)), color-stop(50%, rgba(27,173,218,1)), color-stop(100%, rgba(157,210,231,1)));
+background: -webkit-linear-gradient(left, rgba(152,207,231,1) 0%, rgba(27,173,218,1) 50%, rgba(157,210,231,1) 100%);
+background: -o-linear-gradient(left, rgba(152,207,231,1) 0%, rgba(27,173,218,1) 50%, rgba(157,210,231,1) 100%);
+background: -ms-linear-gradient(left, rgba(152,207,231,1) 0%, rgba(27,173,218,1) 50%, rgba(157,210,231,1) 100%);
+background: linear-gradient(to right, rgba(152,207,231,1) 0%, rgba(27,173,218,1) 50%, rgba(157,210,231,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98cfe7', endColorstr='#9dd2e7', GradientType=1 );
+}
+
+
+
+
+.gadientGREEN{
+background: rgba(239,255,194,1);
+background: -moz-linear-gradient(left, rgba(239,255,194,1) 0%, rgba(197,243,155,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(239,255,194,1)), color-stop(100%, rgba(197,243,155,1)));
+background: -webkit-linear-gradient(left, rgba(239,255,194,1) 0%, rgba(197,243,155,1) 100%);
+background: -o-linear-gradient(left, rgba(239,255,194,1) 0%, rgba(197,243,155,1) 100%);
+background: -ms-linear-gradient(left, rgba(239,255,194,1) 0%, rgba(197,243,155,1) 100%);
+background: linear-gradient(to right, rgba(239,255,194,1) 0%, rgba(197,243,155,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efffc2', endColorstr='#c5f39b', GradientType=1 );}
+
+
+
+
+
+/*--------------------------------------ShopCart----------------------------------------*/
+#shopcart{width:99%;positition:relative;} /*Whole  div*/
+#shcart1 {float:left;width:58%;}
+#shcart1  td{border:solid 2px black;width:144px;}
+#shcart2 {float:left;width:35%;}
+#shcart3 {clear:both;}
+/*----------------------------------END ShopCart----------------------------------------*/
+
+
+
+
+
+/*-----------------------------------------------------MAIL (emailWrite.tpl---------------------------------------------------------------------*/
+#MailsignSpan{font-size:9px;cursor:pointer;text-decoration:underline;color:red;margin-left:6px;} /*sign to  switch to phpmailer-use  default*/
+#mailVer2PhpMailer{display:none;}  /*2nd  div  with  PhpMailer*/
+#phpMailerTextDestroyer{color:red; font-size:24px;}  /* text  that  echo "Message  send" in PhpMailer and  erased  in 3  sec */
+/*-------------------------------------------------END MAIL (emailWrite.tpl---------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*-----------------------------------------------------QR CODE(qrcode.tpl)---------------------------------------------------------------------*/
+#qrCode{font-size:26px;color:red;}
+
+/*-----------------------------------------------------End  QR CODE(qrcode.tpl)---------------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------Vk oAuth(oAuth.tpl)---------------------------------------------------------------------*/
+#vkInfo   {display:none;}
+#examples  {font-size:9px;cursor:pointer;}
+#examplHidden {display:none;font-size:10px;}
+/*-----------------------------------------------------End  oAuth.tpl)---------------------------------------------------------------------*/

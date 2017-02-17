@@ -1,0 +1,32 @@
+//*CSS  styling   for  mobile   devices  only  only FOR MOBILE DEVICE with   screen less >480  */
+*BASE START (which include 3  columns************/
+#base{width:100%; height:889px;}
+/*END  BASE--------------------------*/
+
+
+
+
+
+/*C1 START ********************************/
+#c1{background-color:/*yellow*/white;width:20%;height:890px;float:left;overflow-y: scroll;color:white;}
+
+
+
+
+/*C2 START ********************************/
+#c2{height:890px;}
+#profpict {margin-top:14%;} /*Adjusted profile picture*/
+#lock  {margin-top:11%;}      /*Lock Image*/
+
+#gallicon{margin-top:41%;margin-left:4%;}   /*Photo image in Gallery.tpl */
+
+#MyGallery input{border-radius:2px;}
+#sendme {margin-left:4%;}/*Send Button inGallery.tpl*/
+
+#selUser img {margin-top:18%;width:15px;} /*Photo selectedUser.tpl*/
+
+/*Logged  tpl images*/
+#profpict,#lock{margin-top:0%;}
+
+/*C3 START ********************************/
+#c3{height:890px;}
