@@ -23,7 +23,7 @@ session_start();
 //WORKING
 $db = new PDO('mysql:host='.MYSQL_HOST.'; dbname='.MYSQL_DATABASE, MYSQL_LOGIN, MYSQL_PASSWORD); 
 
-/*$db=new PDO('mysql:host=mysql.hostinger.com.ua;dbname=u341473096_gall','u341473096_user','useruser');*/
+
 $db->exec('SET NAMES utf8');
 // **                                                                                  **
 // **                                                                                  **
@@ -117,7 +117,7 @@ include("Classes/LoadDB.php");
 <head>
 <title>MVC</title>
  <meta charset="utf-8">
-<link rel="stylesheet" media="screen"  type="text/css" href="style.css">
+<link rel="stylesheet" media="screen"Â  type="text/css" href="style.css">
 
 <!-- CSS  for  mobile-->
 <link rel= "stylesheet" href="stylehandheld.css" media="handheld,only screen and (max-device-width:480px)"/>
@@ -376,7 +376,7 @@ if (isset($_GET['myshopp']))
 {   echo GetTemplate('templates/central/myshopp.tpl');   }
 
 
-//If  clicked Selected  Shop Item  INFO
+//If Â clicked Selected Â Shop Item Â INFO
 if (isset($_GET['shopitem'])) 
 {
 echo GetTemplate('templates/central/myshopitem.tpl');
@@ -627,7 +627,7 @@ die;}
 // **************************************************************************************
    
 ?>
-<!--END  Dispaly pop-up only if user has not  enetered LOGIN-->
+<!--END  Dispaly pop-up only if user has not Â enetered LOGIN-->
 
 
 
