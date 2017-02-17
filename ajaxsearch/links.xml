@@ -1,0 +1,80 @@
+<!-- This is the  xml   file   with data  assigned  for  Ajax  Serach proceeding-->
+<pages>
+
+
+<item>
+<title>Dima </title>
+<url>#</url>
+</item>
+
+<link>
+<title>Pivo</title>
+<url>http://www.example2.esy.es/errordocs</url>
+</link>
+
+<link>
+<title>Oksana</title>
+<url>http://www.example2.esy.es/errordocs</url>
+</link>
+
+<link>
+<title>Tanya</title>
+<url>http://www.example2.esy.es/errordocs</url>
+</link>
+
+<link>
+<title>Klava</title>
+<url>http://www.example2.esy.es/errordocs</url>
+</link>
+
+<link>
+<title>Sveta</title>
+<url>http://www.example2.esy.es/errordocs</url>
+</link>
+
+<link>
+<title>Petro</title>
+<url>http://www.example2.esy.es/errordocs</url>
+</link>
+
+<link>
+<title>Alina</title>
+<url>http://www.example2.esy.es/errordocs</url>
+</link>
+
+<link>
+<title>Lyuba</title>
+<url>http://www.example2.esy.es/errordocs</url>
+</link>
+
+<link>
+<title>Anna</title>
+<url>http://www.example2.esy.es/errordocs</url>
+</link>
+
+<link>
+<title>Ira</title>
+<url>http://www.example2.esy.es/errordocs</url>
+</link>
+</pages>
+
+
+
+
+<!-- A  variant  to   use (not  checked-->
+<!--
+<elink xml:link="extended" role="annotation">
+
+<locator xml:link="locator" href="text.loc">The Text</locator>
+
+<locator xml:link="locator" href="annot1.loc">Annotations
+	</locator>
+
+<locator xml:link="locator" href="annot2.loc">
+	More Annotations</locator>
+
+<locator xml:link="locator" href="litcrit.loc">
+	Literary Criticism</locator>
+
+</elink>
+-->
